@@ -11,10 +11,10 @@
 
 <script lang="ts">
 import { Component, Prop, Vue, Watch } from 'vue-property-decorator';
-  
+
 export default class About extends Vue {
   update(): void {
-    this.$store.commit('update', '커밋 메시지');
+    this.$store.commit('update', '새 메시지');
   }
 }
 </script>
