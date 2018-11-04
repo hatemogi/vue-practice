@@ -6,6 +6,10 @@ import 'bulma/css/bulma.min.css';
 
 Vue.config.productionTip = false;
 
+(self as any).MonacoEnvironment = {
+  javascript: 123,
+};
+
 new Vue({
   router,
   store,

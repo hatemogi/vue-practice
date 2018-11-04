@@ -2,7 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">홈</router-link> |
-      <router-link to="/about">소개</router-link>
+      <router-link to="/about">소개</router-link> |
+      <router-link to="/editor">에디터</router-link>
     </div>
     <router-view/>
   </div>
