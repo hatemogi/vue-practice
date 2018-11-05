@@ -14,12 +14,11 @@
 <script lang="ts">
 import { Component, Prop, Vue, Watch } from 'vue-property-decorator';
 
-export default {
-  methods: {
-    update({value}: HTMLInputElement): void {
+@Component
+export default class About extends Vue {
+  public update({value}: HTMLInputElement): void {
       this.$store.commit('update', value);
-    },
-  },
-};
+  }
+}
 
 </script>
